@@ -1,0 +1,77 @@
+.app {
+  font-family: Arial, sans-serif;
+  background-image: url('/images/background.jpg');
+  background-size: cover;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 20px;
+}
+
+.header h1 {
+  font-size: 3em;
+  margin-bottom: 0.5em;
+}
+
+.header p {
+  font-size: 1.5em;
+  margin-bottom: 1em;
+}
+
+.challenge, .statistics, .how-it-works, .join-us, .contact {
+  margin: 2em 0;
+}
+
+.stat {
+  display: inline-block;
+  margin: 1em;
+  text-align: center;
+}
+
+.stat .circle {
+  width: 150px;
+  height: 150px;
+  background-color: #fff;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.stat img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.stat p {
+  margin-top: 1em;
+  font-size: 1.2em;
+}
+
+.gpay img {
+  width: 150px;
+  margin-top: 1em;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 1em 2em;
+  font-size: 1em;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+textarea {
+  width: 80%;
+  height: 100px;
+  padding: 10px;
+  margin-top: 1em;
+  font-size: 1.2em;
+}
+
+footer {
+  margin-top: 2em;
+}
